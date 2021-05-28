@@ -1,0 +1,182 @@
+body{
+    font-family: Georgia, Times, serif;
+    color: #333;
+    font-size: 1.2em; 
+    line-height: 1.3em;
+}
+
+h1{
+    font-size: 2rem ; 
+    line: height 1.3em; 
+}
+
+
+p{
+    margin-bottom: 1.6rem; /**/
+}
+
+
+.container{
+    width: 85%; 
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+.header{
+    background: pink;
+    color: white;
+    padding: 2rem 0; 
+}
+
+    .header a{
+        color: white;
+        text-decoration: none;
+    }
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.7cm;
+}
+.navigation{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+    .navigation ul li a{
+        display: block;
+        padding: 0.5 rem 1rem ;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+background-color: blueviolet;
+    }
+
+    .main{
+        padding-top: 12rem ;
+    }
+    .footer{
+        background-color: pink;
+        padding: 4rem 0;
+        text-aling: center;
+        margin-top: 6rem;
+    }
+
+@media  screen and (max-width:767px) {
+    .navigation ul li {
+        display: block;
+    }
+        .navigation ul li a{
+            display: block;
+            padding: 0.5 rem 1rem ;
+            transition: all 0.4s linear;
+            border-radius: 5px;
+        }
+        .navigation ul li a:hover{
+    background-color:#4d7d90;
+        }
+}
+
+.footer-container{
+    display: inline-block;
+    justify-content: space-between;
+}
+.redes-sociales .bubble i{
+    color: #ccc;
+    padding: 12px 0;
+}
+
+.redes-sociales .bubble:hover i{
+    color: violet;
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Integrativa Profesional</title>
+    <script src="https://kit.fontawesome.com/faf67c4225.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"> AMG </a>
+            <nav class="navigation"> 
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">¿Quién soy? Abigail Mercado Garduño</a></li>
+                    <li><a href="#">Mi experiencia en Geoinformática: En cuanto a mis estudios en la lic 
+                        Geoinformática ha sido un poco dificil pero me gusta seguir aprendiendo a todas 
+                        estas tecnologias que nos brinda la facultad de geografía.
+                    </a></li>
+                    <li><a href="#">Actividades de integrativa</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    
+    <main class="main">
+        <div class="container">
+            <h1>Mi Experiencia en integrativa</h1>
+            <p>En cuanto a la materia de integtrativa profesional
+            he adquirido bastantes conocimientos y 
+            experiencias, durante el sexto semestre estoy
+            realizando un mapeo de las rutas de potrobus
+            al navegacion por la aplicacion de Open street
+            maps, esto tambien me puede ayudar para adquirir
+            experiencia en este campo, tambien ver cuales 
+            son con exactitud cuales son las aparadas exactas
+            para que los usuarios del potrobus no tengan
+            inconvenientes en cuanto a eso.</p>
+
+            <p>La importancia de la materia de Integrativa 
+            profesional tiene como objetivo observar, analizar
+            y aplicar nuestros conociemitmnos que hemos estado
+            adquiriendo a traves de nuestra carrera 
+            universitaria, preparandonos para nuestro futuro 
+            laboral como Geoinformática.
+            </p>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="redes-sociales">
+                
+                <div class="buble">
+                    <a href="https://www.facebook.com/abii.mg61/"> <i class="fab fa-facebook-square"></i></a>
+                </div>
+               
+                <div class="buble"> <a href="https://twitter.com"></a><i class="fab fa-twitter"></i></a>
+                </div>
+                
+                <div class="buble"><a href="https://www.instagram.com/abii__mer/"></a><i class="fab fa-instagram-square"></i></a>
+                </div>
+        </div>
+     </div>
+
+    </footer>
+
+</body>
+
+
+</html>
